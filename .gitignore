@@ -1,0 +1,17 @@
+# Secrets and local state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+credentials.json
+secrets/
+state/
+logs/private/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
