@@ -1,6 +1,6 @@
 # Muse AI Careers
 
-<img width="1283" height="700" alt="Screenshot 2026-10-27 160404" src="https://github.com/user-attachments/assets/ea736fec-9101-4088-a445-8640f41f54f8" />
+<img width="1284" height="699" alt="Screenshot 2026-10-27 113132" src="https://github.com/user-attachments/assets/7cd3a169-c311-404f-a808-6f40bac12063" />
 
 > **Give your AI a job. Publish the work record.**
 
@@ -16,7 +16,7 @@ Muse AI Careers is a practical catalog of autonomous-agent jobs, operating notes
 | [04 Crypto Swarm](jobs/04-crypto-swarm/) | Fleet provisioned / pending execution | A proposed micro-yield experiment. No measured mining P&L is included here. |
 | [05 Open Track](jobs/05-open-track/) | Accepting proposals | A place to propose a new agent job with boundaries and an evaluation plan. |
 
-<img width="1224" height="656" alt="Screenshot 2026-10-27 160412" src="https://github.com/user-attachments/assets/ab6dab0b-73c5-4185-aa43-86620ccffff1" />
+<img width="1287" height="701" alt="Screenshot 2026-10-27 113229" src="https://github.com/user-attachments/assets/c81f66c1-f388-4c1e-8de2-4c7fdfa7b020" />
 
 ## The operating thesis
 
@@ -39,7 +39,7 @@ People do not need another prompt collection. They need a worker with a defined 
 
 The phrase “it will work very poorly” is useful here as an anti-hype standard: a system can be technically plausible while still being uneconomic. Measure both output and total cost before calling a track successful.
 
-<img width="1283" height="700" alt="Screenshot 2026-10-27 160324" src="https://github.com/user-attachments/assets/03e754f8-11d3-4fff-9286-36659112d889" />
+<img width="1280" height="696" alt="Screenshot 2026-10-27 113247" src="https://github.com/user-attachments/assets/1581f9d3-bc87-4797-86d9-e08daaff156e" />
 
 ## Proof over promises
 
@@ -56,7 +56,7 @@ The repository currently treats the crypto-mining numbers as a projection, not r
 
 [`hire.html`](hire.html) is a static, Stripe-ready catalog mockup. It contains placeholders only. Replace payment links, service descriptions, refund terms, privacy notices, and availability claims after verifying them. Never publish credentials or private account identifiers in this repository.
 
-<img width="1282" height="699" alt="Screenshot 2026-10-27 160335" src="https://github.com/user-attachments/assets/53e6d561-09d9-4ed5-bafd-ea424a6086ac" />
+<img width="1282" height="698" alt="Screenshot 2026-10-27 113219" src="https://github.com/user-attachments/assets/7f6599f3-ac20-4329-8350-7c068cba0e56" />
 
 ## Quick start
 
@@ -78,6 +78,8 @@ Review the track README and `SKILL.md` before operating anything. Copy `.env.exa
 - `marketplace/` — future listing schema and intake notes.
 - `docs/` — contribution, safety, and evidence standards.
 
+<img width="1280" height="699" alt="Screenshot 2026-10-27 113213" src="https://github.com/user-attachments/assets/3538fd50-b2e3-4b0f-b1a7-a787494fdada" />
+
 ## The “fake school” idea, made concrete
 
 A diploma is a claim made by an institution. A work record is evidence someone can inspect. Muse keeps the useful part of certification—the skill file, test set, version, and record—and drops the implication that a badge can guarantee a result. If this project disappears, a properly packaged skill file and its evidence should remain usable by its owner.
@@ -86,4 +88,5 @@ A diploma is a claim made by an institution. A work record is evidence someone c
 
 This repository is documentation and templates. Operators are responsible for their accounts, costs, permissions, platform terms, applicable law, and decisions made from outputs. See [SECURITY.md](SECURITY.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
-<img width="1283" height="700" alt="Screenshot 2026-10-27 160404" src="https://github.com/user-attachments/assets/04cc99f0-5230-483b-a3cc-a9fd73358b71" />
+<img width="1281" height="696" alt="Screenshot 2026-10-27 113151" src="https://github.com/user-attachments/assets/354cf730-6781-4df7-b6d3-96700ad03831" />
+
