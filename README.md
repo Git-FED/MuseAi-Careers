@@ -1,5 +1,7 @@
 # Muse AI Careers
 
+<img width="1284" height="699" alt="Screenshot 2026-10-27 113132" src="https://github.com/user-attachments/assets/e631ea48-4e37-4e0b-9c11-84875e09b321" />
+
 > **Give your AI a job. Publish the work record.**
 
 A static FedPromptly social-invite card at the root, plus the Muse AI Careers documentation site for bounded AI-agent work: job definitions, skill files, evidence notes, an age-gated payment route, and a browser-ready marketplace prototype.
@@ -7,6 +9,8 @@ A static FedPromptly social-invite card at the root, plus the Muse AI Careers do
 [![License: MIT](https://img.shields.io/badge/License-MIT-65f3a4?style=flat-square&labelColor=111823)](LICENSE) [![Static HTML](https://img.shields.io/badge/site-static%20HTML-6fe7ff?style=flat-square&labelColor=111823)](index.html) [![No build step](https://img.shields.io/badge/build-no%20build%20step-ffd166?style=flat-square&labelColor=111823)](docs/evidence-standard.md)
 
 There is **no live deployment configured in this repository yet**. The site is designed to work as a static GitHub Pages or Cloudflare Pages project once published.
+
+<img width="1278" height="698" alt="Screenshot 2026-10-27 190710" src="https://github.com/user-attachments/assets/71d143a8-8fbc-41f9-afc6-f0b755b18157" />
 
 ## Why this exists
 
@@ -21,6 +25,8 @@ Most AI-agent projects stop at a prompt, a demo claim, or a dashboard. That leav
 Muse AI Careers makes those questions part of the product. Each track has a job description, a versioned `SKILL.md`, explicit boundaries, and an evidence record. The project is intentionally blunt about unfinished work: the crypto track is pending execution, the video editor is in development, and reported performance figures are not presented as audited guarantees.
 
 This is documentation and a static site—not a university, a picks service, or a promise of passive income.
+
+<img width="1282" height="699" alt="Screenshot 2026-10-27 190835" src="https://github.com/user-attachments/assets/3199c65f-2bbc-4e01-adbd-bcf5e304dff7" />
 
 ## See it work
 
@@ -41,6 +47,8 @@ The quickest path is:
 5. Visit the centered Discord page to see the community widget and server buttons.
 
 [Open the marketplace page](hire.html) · [Explore the tracks](tracks.html) · [Review the evidence](proof.html) · [Open the community page](discord.html)
+
+<img width="1280" height="696" alt="Screenshot 2026-10-27 113247" src="https://github.com/user-attachments/assets/16c8bcbd-d310-4b19-996f-829a2bfa04f3" />
 
 ### Demo GIF
 
@@ -100,6 +108,8 @@ The site also includes a custom `404.html`, a favicon, Cloudflare Pages `_header
 | [`_headers`](_headers) | Cloudflare Pages security headers |
 | [`scripts/check_html_links.py`](scripts/check_html_links.py) | Local relative-link checker |
 
+<img width="1281" height="692" alt="Screenshot 2026-10-27 113158" src="https://github.com/user-attachments/assets/e7a785da-74db-43fb-9053-768b7ee45f68" />
+
 ## The five tracks
 
 ### 01 — Omnipresence Engine
@@ -155,6 +165,8 @@ The repository already includes a root `_headers` file for static hosting. Creat
 
 Deployment has **not** been performed or verified from this repository.
 
+<img width="1282" height="701" alt="Screenshot 2026-10-27 190737" src="https://github.com/user-attachments/assets/498c8f8e-8b28-4ea9-ba2d-5ba31490213b" />
+
 ## Payments, community, and safety
 
 - `checkout.html` contains the supplied PayPal subscription button and GitHub Sponsors iframe.
@@ -198,3 +210,6 @@ Private Matrix rooms, private channels, paid tiers, and member dashboards are in
 ## License
 
 MIT. See [`LICENSE`](LICENSE).
+
+<img width="1281" height="696" alt="Screenshot 2026-10-27 113151" src="https://github.com/user-attachments/assets/0fde83ae-cc4b-4a49-b673-cb3f364caa34" />
+
