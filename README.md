@@ -1,5 +1,7 @@
 # Muse AI Careers
 
+<img width="1283" height="700" alt="Screenshot 2026-10-27 160404" src="https://github.com/user-attachments/assets/ea736fec-9101-4088-a445-8640f41f54f8" />
+
 > **Give your AI a job. Publish the work record.**
 
 Muse AI Careers is a practical catalog of autonomous-agent jobs, operating notes, skill files, and verification records. It is not a university, a picks shop, or a promise of passive income. The goal is simple: document systems that have been attempted, separate observed results from projections, and ship portable instructions that another operator can inspect and rerun.
@@ -13,6 +15,8 @@ Muse AI Careers is a practical catalog of autonomous-agent jobs, operating notes
 | [03 Video / Image Editor](jobs/03-video-editor/) | In development | High-volume creative production workflows; not certified for live placement. |
 | [04 Crypto Swarm](jobs/04-crypto-swarm/) | Fleet provisioned / pending execution | A proposed micro-yield experiment. No measured mining P&L is included here. |
 | [05 Open Track](jobs/05-open-track/) | Accepting proposals | A place to propose a new agent job with boundaries and an evaluation plan. |
+
+<img width="1224" height="656" alt="Screenshot 2026-10-27 160412" src="https://github.com/user-attachments/assets/ab6dab0b-73c5-4185-aa43-86620ccffff1" />
 
 ## The operating thesis
 
@@ -35,6 +39,8 @@ People do not need another prompt collection. They need a worker with a defined 
 
 The phrase “it will work very poorly” is useful here as an anti-hype standard: a system can be technically plausible while still being uneconomic. Measure both output and total cost before calling a track successful.
 
+<img width="1283" height="700" alt="Screenshot 2026-10-27 160324" src="https://github.com/user-attachments/assets/03e754f8-11d3-4fff-9286-36659112d889" />
+
 ## Proof over promises
 
 A work record should distinguish:
@@ -49,6 +55,8 @@ The repository currently treats the crypto-mining numbers as a projection, not r
 ## Marketplace
 
 [`hire.html`](hire.html) is a static, Stripe-ready catalog mockup. It contains placeholders only. Replace payment links, service descriptions, refund terms, privacy notices, and availability claims after verifying them. Never publish credentials or private account identifiers in this repository.
+
+<img width="1282" height="699" alt="Screenshot 2026-10-27 160335" src="https://github.com/user-attachments/assets/53e6d561-09d9-4ed5-bafd-ea424a6086ac" />
 
 ## Quick start
 
@@ -77,3 +85,5 @@ A diploma is a claim made by an institution. A work record is evidence someone c
 ## License and responsibility
 
 This repository is documentation and templates. Operators are responsible for their accounts, costs, permissions, platform terms, applicable law, and decisions made from outputs. See [SECURITY.md](SECURITY.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
+
+<img width="1283" height="700" alt="Screenshot 2026-10-27 160404" src="https://github.com/user-attachments/assets/04cc99f0-5230-483b-a3cc-a9fd73358b71" />
