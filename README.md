@@ -1,92 +1,200 @@
 # Muse AI Careers
 
-<img width="1284" height="699" alt="Screenshot 2026-10-27 113132" src="https://github.com/user-attachments/assets/7cd3a169-c311-404f-a808-6f40bac12063" />
-
 > **Give your AI a job. Publish the work record.**
 
-Muse AI Careers is a practical catalog of autonomous-agent jobs, operating notes, skill files, and verification records. It is not a university, a picks shop, or a promise of passive income. The goal is simple: document systems that have been attempted, separate observed results from projections, and ship portable instructions that another operator can inspect and rerun.
+A static FedPromptly social-invite card at the root, plus the Muse AI Careers documentation site for bounded AI-agent work: job definitions, skill files, evidence notes, an age-gated payment route, and a browser-ready marketplace prototype.
 
-## Current status
+[![License: MIT](https://img.shields.io/badge/License-MIT-65f3a4?style=flat-square&labelColor=111823)](LICENSE) [![Static HTML](https://img.shields.io/badge/site-static%20HTML-6fe7ff?style=flat-square&labelColor=111823)](index.html) [![No build step](https://img.shields.io/badge/build-no%20build%20step-ffd166?style=flat-square&labelColor=111823)](docs/evidence-standard.md)
 
-| Track | Status | What is actually claimed |
-|---|---|---|
-| [01 Omnipresence Engine](jobs/01-omnipresence/) | Live / operator-controlled | Social distribution and community-growth workflows; platform rules and consent apply. |
-| [02 Multi-Sport Quant Desk](jobs/02-sports-quant/) | Live / human execution | Data collection, formula execution, and recordkeeping. A human places any wager. |
-| [03 Video / Image Editor](jobs/03-video-editor/) | In development | High-volume creative production workflows; not certified for live placement. |
-| [04 Crypto Swarm](jobs/04-crypto-swarm/) | Fleet provisioned / pending execution | A proposed micro-yield experiment. No measured mining P&L is included here. |
-| [05 Open Track](jobs/05-open-track/) | Accepting proposals | A place to propose a new agent job with boundaries and an evaluation plan. |
+There is **no live deployment configured in this repository yet**. The site is designed to work as a static GitHub Pages or Cloudflare Pages project once published.
 
-<img width="1287" height="701" alt="Screenshot 2026-10-27 113229" src="https://github.com/user-attachments/assets/c81f66c1-f388-4c1e-8de2-4c7fdfa7b020" />
+## Why this exists
 
-## The operating thesis
+Most AI-agent projects stop at a prompt, a demo claim, or a dashboard. That leaves the difficult questions unanswered:
 
-People do not need another prompt collection. They need a worker with a defined job, an explicit ceiling, observable outputs, and a record that does not hide failures. Every track in this repository therefore includes:
+- What job is the agent actually supposed to do?
+- What remains human-controlled?
+- What does the agent refuse to do?
+- Which results are observed, which are merely reported, and which are projections?
+- Can another operator inspect the instructions and rerun the workflow?
 
-- a job description and human/agent boundary;
-- a versioned skill file;
-- operating procedures and practice reps;
-- an evaluation plan;
-- a work-record template for observed evidence;
-- a risk and compliance section.
+Muse AI Careers makes those questions part of the product. Each track has a job description, a versioned `SKILL.md`, explicit boundaries, and an evidence record. The project is intentionally blunt about unfinished work: the crypto track is pending execution, the video editor is in development, and reported performance figures are not presented as audited guarantees.
 
-## What this repository does not promise
+This is documentation and a static site—not a university, a picks service, or a promise of passive income.
 
-- No guaranteed income, profit, win rate, conversion rate, or return.
-- No “zero-risk” financial outcome. Cloud costs, platform bans, fees, taxes, and market losses are real risks.
-- No automatic betting, wallet control, or financial execution.
-- No spam, evasion, mass-account abuse, or bypassing platform safeguards.
-- No legal, medical, tax, investment, or gambling advice.
+## See it work
 
-The phrase “it will work very poorly” is useful here as an anti-hype standard: a system can be technically plausible while still being uneconomic. Measure both output and total cost before calling a track successful.
+**Fastest real demo:** run the site locally and open the FedPromptly social invite at the root.
 
-<img width="1280" height="696" alt="Screenshot 2026-10-27 113247" src="https://github.com/user-attachments/assets/1581f9d3-bc87-4797-86d9-e08daaff156e" />
+```bash
+python3 -m http.server 8080
+```
 
-## Proof over promises
+Then open [http://localhost:8080/](http://localhost:8080/) in a browser. The root opens the FedPromptly social invite. The previous Muse landing page remains available at [`muse.html`](muse.html).
 
-A work record should distinguish:
+The quickest path is:
 
-1. **Observed:** directly supported by a dated log, screenshot, export, or transaction record.
-2. **Reported:** supplied by an operator but not independently checked.
-3. **Projected:** a model, estimate, or scenario that has not happened yet.
-4. **Pending:** a track that has a plan but no execution evidence.
+1. Open the landing page.
+2. Select **Browse the marketplace**.
+3. Open a track or choose a payment route.
+4. Confirm the age gate to reach the static checkout page.
+5. Visit the centered Discord page to see the community widget and server buttons.
 
-The repository currently treats the crypto-mining numbers as a projection, not revenue. The 20-account fleet and the 4–8 cents/day estimate are planning context until a compliant deployment produces measured hashrate, payout, uptime, and net-cost records.
+[Open the marketplace page](hire.html) · [Explore the tracks](tracks.html) · [Review the evidence](proof.html) · [Open the community page](discord.html)
 
-## Marketplace
+### Demo GIF
 
-[`hire.html`](hire.html) is a static, Stripe-ready catalog mockup. It contains placeholders only. Replace payment links, service descriptions, refund terms, privacy notices, and availability claims after verifying them. Never publish credentials or private account identifiers in this repository.
+This GIF was captured from the actual local HTML site. It shows the landing page, marketplace, age gate, and checkout flow—not a mockup.
 
-<img width="1282" height="698" alt="Screenshot 2026-10-27 113219" src="https://github.com/user-attachments/assets/7f6599f3-ac20-4329-8350-7c068cba0e56" />
+![Animated walkthrough of the Muse AI Careers landing page, marketplace, age gate, and checkout](assets/demo/demo.gif)
+
+## Screenshots
+
+![Muse AI Careers landing page with animated ticker and robot artwork](assets/demo/landing-page.png)
+
+![Muse AI Careers marketplace showing agent-job cards](assets/demo/marketplace-page.png)
+
+![Muse AI Careers age gate before payment](assets/demo/age-gate-page.png)
+
+![Muse AI Careers static checkout page with PayPal and GitHub Sponsors sections](assets/demo/checkout-page.png)
 
 ## Quick start
 
+This repository has no `package.json`, no bundler, and no dependency installation step. It is plain HTML, CSS, JavaScript, Markdown, SVG, and PNG.
+
 ```bash
-git clone <your-repository-url>
-cd muse-ai-careers
+# install: no install step
+
+# run
 python3 -m http.server 8080
-# open http://localhost:8080/hire.html
+
+# test local HTML routes
+python3 scripts/check_html_links.py
 ```
 
-Review the track README and `SKILL.md` before operating anything. Copy `.env.example` only into a private runtime environment; it intentionally contains no secrets.
+For a browser-readable preview, open:
 
-## Repository map
+```text
+http://localhost:8080/index.html
+```
 
-- `jobs/` — the five agent-job tracks.
-- `certifications/` — evidence templates and current verification notes.
-- `infrastructure/` — relay, VM, and identity operating notes.
-- `prompts/` — reusable role prompts, written as bounded operating contracts.
-- `marketplace/` — future listing schema and intake notes.
-- `docs/` — contribution, safety, and evidence standards.
+The site also includes a custom `404.html`, a favicon, Cloudflare Pages `_headers`, responsive CSS, an animated ticker, scroll reveals, and the generated demo assets under `assets/demo/`.
 
-<img width="1280" height="699" alt="Screenshot 2026-10-27 113213" src="https://github.com/user-attachments/assets/3538fd50-b2e3-4b0f-b1a7-a787494fdada" />
+## What is in the repository
 
-## The “fake school” idea, made concrete
+| Path | Purpose |
+|---|---|
+| [`index.html`](index.html) | FedPromptly social-invite entry point supplied in the project brief |
+| [`muse.html`](muse.html) | Muse AI Careers landing page and documentation-site entry point |
+| [`hire.html`](hire.html) | Marketplace prototype |
+| [`tracks.html`](tracks.html) | Browser-friendly track directory |
+| [`age-gate.html`](age-gate.html) | Front-end age confirmation before checkout |
+| [`checkout.html`](checkout.html) | PayPal subscription and GitHub Sponsors sections |
+| [`discord.html`](discord.html) | Centered Discord widget, community buttons, and 18+ Patreon gate |
+| [`proof.html`](proof.html) | Browser-readable evidence summary |
+| [`jobs/`](jobs/) | Five job tracks and bounded skill files |
+| [`certifications/`](certifications/) | Evidence records and verification notes |
+| [`infrastructure/`](infrastructure/) | Relay, VM, and identity operating notes |
+| [`prompts/`](prompts/) | Relay and chief-of-staff prompt contracts |
+| [`assets/demo/`](assets/demo/) | Screenshots and the real local demo GIF |
+| [`_headers`](_headers) | Cloudflare Pages security headers |
+| [`scripts/check_html_links.py`](scripts/check_html_links.py) | Local relative-link checker |
 
-A diploma is a claim made by an institution. A work record is evidence someone can inspect. Muse keeps the useful part of certification—the skill file, test set, version, and record—and drops the implication that a badge can guarantee a result. If this project disappears, a properly packaged skill file and its evidence should remain usable by its owner.
+## The five tracks
 
-## License and responsibility
+### 01 — Omnipresence Engine
 
-This repository is documentation and templates. Operators are responsible for their accounts, costs, permissions, platform terms, applicable law, and decisions made from outputs. See [SECURITY.md](SECURITY.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
+Authorized content distribution and community-growth operations. The skill emphasizes approved accounts, platform limits, consent, human review for sensitive publication, and measurable results instead of vanity metrics.
 
-<img width="1281" height="696" alt="Screenshot 2026-10-27 113151" src="https://github.com/user-attachments/assets/354cf730-6781-4df7-b6d3-96700ad03831" />
+[Open the track page](jobs/01-omnipresence/index.html) · [Read the evidence record](certifications/omnipresence-proof.md)
 
+### 02 — Multi-Sport Quant Desk
+
+Runs an operator-supplied formula against permitted sports data and maintains a paper record. The agent does not place wagers, access a sportsbook, recommend stake sizes, or claim a future return.
+
+[Open the track page](jobs/02-sports-quant/index.html) · [Read the evidence record](certifications/sports-quant-proof.md)
+
+### 03 — Video / Image Editor
+
+In development. The track covers creative assembly and editing with human review for rights, likeness, factual claims, sensitive content, and final publication.
+
+[Open the track page](jobs/03-video-editor/index.html)
+
+### 04 — Crypto Swarm / Micro-Yield Experiment
+
+Fleet provisioned, pending execution. The repository does not claim a measured miner, payout, or net-positive P&L. The 4–8 cents/day figure remains an estimate until a compliant deployment produces dated hashrate, payout, uptime, fee, and compute-cost records.
+
+[Open the track page](jobs/04-crypto-swarm/index.html) · [Read the audit](certifications/crypto-swarm-audit.md)
+
+### 05 — Open Track
+
+A proposal path for a new agent job. A proposal needs a user, human boundary, refusal rules, risk review, draft evaluation cases, evidence format, and a stop condition.
+
+[Open the track page](jobs/05-open-track/index.html)
+
+## Evidence over hype
+
+The repository uses four labels:
+
+- **Observed** — supported by a dated log, export, screenshot, or transaction record.
+- **Reported** — supplied by an operator but not independently checked.
+- **Projected** — a model, estimate, or scenario that has not happened yet.
+- **Pending** — planned but not executed.
+
+No track can honestly turn a small sample, a forecast, or a technical possibility into a guaranteed income claim. See [`docs/evidence-standard.md`](docs/evidence-standard.md) and [`docs/evaluation.md`](docs/evaluation.md).
+
+## Deployment notes
+
+### GitHub Pages
+
+No GitHub Pages workflow is enabled yet. Because the site is static, it can be published from the repository root using GitHub Pages' branch/folder deployment settings. If the repository is published under a project path, keep the relative links as they are.
+
+### Cloudflare Pages
+
+The repository already includes a root `_headers` file for static hosting. Create a Cloudflare Pages project pointed at this repository, use the repository root as the output directory, and leave the build command empty. There is no framework build to run.
+
+Deployment has **not** been performed or verified from this repository.
+
+## Payments, community, and safety
+
+- `checkout.html` contains the supplied PayPal subscription button and GitHub Sponsors iframe.
+- `age-gate.html` is a client-side notice, not identity verification.
+- `discord.html` centers the Discord widget and keeps the Patreon route behind an 18+ confirmation dialog.
+- Ko-fi is intentionally not included.
+- Replace placeholders, verify the payment plan, publish final refund/privacy terms, and confirm platform compliance before launch.
+- Never commit credentials, cookies, wallet seeds, private messages, or customer exports.
+
+## Project status
+
+This is a usable static prototype and documentation package. It does not include a backend marketplace, automated fulfillment webhook, account-management service, miner installation, or verified live production deployment.
+
+That limitation is part of the work record.
+
+## FED-OS links
+
+- [Explore the ecosystem](https://www.fedpromptly.org)
+- [FED-OS membership](https://www.fedpromptly.com/aid)
+- [Storefront](https://www.jabburr.com/fed-os)
+- [Whop](https://whop.com/fedpromptly/)
+- [Patreon supporters](https://www.patreon.com/c/FEDpromptly)
+- [Buy Me a Coffee](https://buymeacoffee.com/fedpromptly)
+- [Developers Discord](https://discord.gg/Jm4XStx4Pf)
+- [Bluesky](https://bsky.app/profile/fed-os.bsky.social)
+- [X / advertising](https://x.com/Fedpromptly)
+- [Substack](https://substack.com/@fedpromptly)
+- [WordPress blog](https://fedpromptly.wordpress.com/)
+- [GitFed blog](https://gitfed.substack.com/)
+- [Artwork](https://www.deviantart.com/fedpromptly)
+
+### Contact
+
+- General: [contact@fedpromptly.com](mailto:contact@fedpromptly.com)
+- Support: [support@fedpromptly.com](mailto:support@fedpromptly.com)
+- Business: [business@fedpromptly.com](mailto:business@fedpromptly.com)
+- Careers: [careers@fedpromptly.com](mailto:careers@fedpromptly.com)
+
+Private Matrix rooms, private channels, paid tiers, and member dashboards are intentionally not listed as open public links here. Put those behind an appropriate invite, login, age, or country gate.
+
+## License
+
+MIT. See [`LICENSE`](LICENSE).
